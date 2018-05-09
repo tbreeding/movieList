@@ -1,11 +1,11 @@
 import React, {Component} from "react";
-
+import {NavLink} from "react-router-dom";
 
 const Nav = (props) => {
   return (
     <nav>
       <h1>MotionTracker<span>.io</span></h1>
-      <div className="navBtn">Login</div>
+      <NavLink className="navBtn" to="/login" activeClassName="is-active">Login</NavLink>
     </nav>
   )
 }

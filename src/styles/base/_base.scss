@@ -6,6 +6,7 @@ body {
   padding: 0;
   font-size: $medSize;
   background-color: $lightBlue;
+  font-family: $secondaryFont;
 }
 #app {
   margin: 0;
@@ -15,5 +16,6 @@ body {
   flex-direction: column;
   align-items: center;
 }
-@import "./_base_max-width_360px.scss";
-@import "./_base_min-width_1000px.scss";
+@import "./base_max-width_360px";
+@import "./base_max-width_1000px_min-width_600px";
+@import "./base_min-width_1000px";

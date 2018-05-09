@@ -7,16 +7,18 @@ nav {
   justify-content: space-between;
   align-items: center;
   user-select: none;
+  h1 {
+    font-style: italic;
+    margin: 0;
+    span {
+      font-size: 1.5rem;
+    }
 }
-h1 {
-  font-style: italic;
-  margin: 0;
-  span {
-    font-size: 1.5rem;
-  }
+
 }
 .navBtn {
-  // padding: 10px 30px;
+  text-decoration: none;
+  color: inherit;
   border: 1px solid white;
   border-radius: 30px;
   cursor: pointer;
@@ -26,7 +28,7 @@ h1 {
     color: $drkBlue;
   }
 }
-@import "./_Nav_max-width_360px.scss";
-@import "./_Nav_max-width_600px.scss";
-@import "./_Nav_max-width_1000px.scss";
-@import "./_Nav_min-width_1000px.scss";
+@import "./Nav_max-width_360px";
+@import "./Nav_max-width_600px_min-width_360px";
+@import "./Nav_max-width_1000px_min-width_600px";
+@import "./Nav_min-width_1000px";

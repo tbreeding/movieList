@@ -9,7 +9,6 @@ class HomePage extends Component {
   render() {
     return (
       <div className="homePage">
-        <Nav />
         <p>Hello World!</p>
       </div>
     )

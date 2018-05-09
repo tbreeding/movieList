@@ -1,9 +1,9 @@
 import React, {Component} from "react";
 import ReactDOM from 'react-dom';
-import HomePage from './components/HomePage';
+import AppRouter from './routers/AppRouter';
 
 import "normalize.css/normalize.css";
 import "./styles/styles.scss";
 
 
-ReactDOM.render(<HomePage />, document.getElementById("app"));
+ReactDOM.render(<AppRouter />, document.getElementById("app"));

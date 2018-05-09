@@ -1,0 +1,32 @@
+nav {
+  width: 100%;
+  background-color: $drkBlue;
+  color: white;
+  font-family: $primaryFont;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  user-select: none;
+}
+h1 {
+  font-style: italic;
+  margin: 0;
+  span {
+    font-size: 1.5rem;
+  }
+}
+.navBtn {
+  // padding: 10px 30px;
+  border: 1px solid white;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color .2s, color .2s;
+  &:hover {
+    background-color: white;
+    color: $drkBlue;
+  }
+}
+@import "./_Nav_max-width_360px.scss";
+@import "./_Nav_max-width_600px.scss";
+@import "./_Nav_max-width_1000px.scss";
+@import "./_Nav_min-width_1000px.scss";

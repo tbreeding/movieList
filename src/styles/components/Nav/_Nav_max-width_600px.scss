@@ -1,0 +1,15 @@
+@media only screen and (max-width: 600px) and (min-width: 360px) {
+  nav {
+    padding: 10px;
+  }
+  h1 {
+    font-size: 1.4rem;
+    span {
+      font-size: .7rem;
+    }
+  }
+  .navBtn {
+    padding: 5px 10px;
+    font-size: 1rem;
+  }
+}

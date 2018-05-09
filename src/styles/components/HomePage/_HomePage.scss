@@ -1,0 +1,12 @@
+.homePage {
+  margin: 0;
+  padding: 0;
+  
+  min-height: 100vh;
+
+
+  color: $offWhite;
+}
+
+@import "./HomePage_max_width_360px";
+@import "./HomePage_min_width_1000px";
